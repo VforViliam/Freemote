@@ -1,0 +1,388 @@
+@font-face {
+    font-family: "Hellix";
+    src: url(../Fonts/Hellix-Regular.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: "Hellix";
+    src: url(../Fonts/Hellix-Medium.ttf);
+    font-weight: 500;
+}
+@font-face {
+    font-family: "Hellix";
+    src: url(../Fonts/Hellix-SemiBold.ttf);
+    font-weight: 600;
+}
+@font-face {
+    font-family: "Hellix";
+    src: url(../Fonts/Hellix-Bold.ttf);
+    font-weight: 700;
+}
+@font-face {
+    font-family: "Hellix";
+    src: url(../Fonts/Hellix-ExtraBold.ttf);
+    font-weight: 800;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    min-width: 100%;
+    min-height: 100vh;
+    font-family: "Hellix",sans-serif;
+    color: #111235;
+    box-sizing: border-box;
+    background-color:white;
+}
+
+
+#card-deck{
+    width: 414px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background:linear-gradient(7.28deg, #EEF5FF 0%, #FFFFFF 99.69%);
+}
+h1,h2,h3,h5{
+    font-weight: 500;
+}
+h1{
+    font-size: 4em;
+    line-height: 75px;
+    margin-bottom: 20px;
+}
+h2{
+    font-size: 3em;
+    line-height: 58px;
+}
+h3{
+    font-size: 2.25em;
+    padding: 16px 0;
+    text-align: center;  
+}
+h4{
+    font-size: 24px;
+    line-height: 29px;
+}
+h5{
+    font-size: 18px;
+    line-height: 24px;
+}
+header{
+box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+}
+header div{
+    display: none;
+}
+p{
+    font-size: 1em;
+    line-height: 24px;
+}
+.bold, h4{
+    font-weight: 700;
+}
+
+.card{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 120px;
+}
+.card p {
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+button{
+    width: 280px;
+    font-size: 18px;
+    color: white;
+    background-color: #4B5092 ;
+    border: none;
+    border-radius: 35px;
+    padding: 18px 0;
+    transition: 0.3s ease all;
+    margin: auto;
+}
+button:hover{
+    cursor: pointer;
+    opacity: 0.8;
+    transition: 0.3s ease all;
+}
+#card-2,#card-3{
+    width: 100%;
+}
+
+#card-2>div{
+    background-color: #F2F8FF;
+    padding: 50px 20px;
+    text-align: start;   
+}
+#card-2 h2{
+    margin-bottom: 20px;
+}
+#card-2 span{
+    display: block;
+}
+
+#card-3{
+    background:linear-gradient(99.85deg, #BAD5FF 0%, #6487BF 100%);
+}
+#card-3 h2{
+padding-top: 80px;
+font-weight: 700;
+}
+#card-3 p{
+    width: 92%;
+}
+#card-3 button{
+    background-color: white;
+    color:#436BAA
+}
+#card-3 p, #card-3 button{
+    margin: 15px auto;  
+}
+#card-3 #trainer{
+    background-image: url(../Images/trainer.png);
+    background-position:bottom;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 480px;
+}
+
+#card-4{
+    text-align: start;
+}
+#card-4 h2{
+    margin: 45px 0; 
+}
+.bubble{
+    padding:50px 50px 40px 40px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    
+}
+.bubble h4{
+    margin-bottom: 20px;
+}
+#bubble-deck{
+    margin-bottom: 30px;
+}
+.bubble-blue{
+    background-color: #E4F0FF;
+}
+.bubble-purple{
+    background-color: #727aef23;
+}
+
+footer{
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    text-align: center;
+    filter:drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+footer>div:nth-of-type(1){
+    margin: 50px auto;
+}
+footer>h3{
+padding-top: 50px ;
+}
+footer div:nth-of-type(1) a{
+    all: unset;
+    display: block;
+    margin-bottom: 35px; 
+}
+#email{
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 14px;
+    margin: 24px auto;
+}
+
+
+#email input{
+    all: unset;
+    width: 60%;
+    height: 100%;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 5px;
+    background-color: white;
+    text-align: start;
+    padding: 0 30px ;    
+    background: url("../Images/Vector.png") white 97% 50% no-repeat;
+    height:30px;
+    margin: 20px 0;
+}
+   
+#icons a {
+    margin-left: 10px;
+}
+
+footer p{
+    margin: 50px auto;
+}  
+
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+ 
+ #card-deck{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     width: 100%;
+    
+ }
+    header{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     box-shadow: none;
+     position: sticky;
+     top: 0;
+     background-color: white;
+     width: 100%;
+     
+ }  
+ 
+ header h3{
+     text-align: start;
+     width: 50%;
+     padding-left: 10%;
+     
+     
+ }
+ header div{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     height: inherit;
+     width: 30%;
+     padding-right: 10%;
+ }
+ header a {
+     all: unset;
+ }
+ .card{
+     display: flex;
+     flex-direction: row;
+     width: 80%;
+     
+ }
+ #card-1 {
+     /* width: 100%; */
+     flex-direction: row-reverse;
+     justify-content: space-between;
+     align-items: center;
+     margin: 50px 0 120px;
+ }
+ #card-1 img{
+     width: 600px;
+     height: 600px;
+ }
+ .card-content{
+    width: 50%;
+    text-align: start;
+    margin: auto 0;
+ }
+
+#card-2{
+    width: 90%;
+}
+#card-2 img {
+    width: 575px;
+    height: 384px;}
+#card-2 .card-content {
+    border-radius: 50px
+}
+#card-3{
+    flex-direction: row-reverse;
+    width: 100%;
+    justify-content: center;
+}
+#card-3 #trainer{
+    width: 40%;
+}
+#card-3 .card-content{
+    width: 40%;
+}
+#card-3 p{
+    margin: 30px 0;
+}
+#card-3 h2{
+    padding-top: 50px;
+}
+
+#card-4{
+    flex-direction: row-reverse;
+    position: relative;
+    justify-content: space-between;
+}
+
+#card-4 .card-content{
+    width: 70%;
+}
+#card-4 button{
+    position: absolute;
+    top: 45px;
+    right: 0;
+}
+  
+#bubble-deck{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.bubble{
+    width:49%;
+    box-sizing: border-box;
+}
+
+footer{
+    display: flex;
+    width: 80%;
+    text-align:start;
+    position:relative;
+    padding-top: 50px;
+    justify-content: space-between;
+}
+#icons{
+    display: none;
+}
+footer h3{
+    width: 25%;
+    text-align: start;
+    padding: 0;
+}
+footer #link-container{
+    margin:0;
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 0;
+}
+footer>#email{
+    width: 20%;
+}
+footer>#email>input{
+    width: 100%;
+}
+footer>p{
+    position: absolute;
+    bottom:0;
+    left:0;
+}
+}
