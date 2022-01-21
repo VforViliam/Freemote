@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz app</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+
+    <div class="question-card active-card" id="Q1">
+        <h1>CSS Quiz</h1>
+        <h2>Question 1 of 3</h2>
+        <h3>Which of the following is not a real eCommerce platform?</h3>
+
+        <div class="options">
+            <div>
+                <input type="radio" class="optionQ1" name="answer-1" value="A">
+                <label for="A">Shopify</label>
+            </div>
+            <div>
+                <input type="radio" class="optionQ1" name="answer-1" value="B">
+                <label for="B">Woo Commerce</label>
+            </div>
+            <div>
+                <input type="radio" class="optionQ1" name="answer-1" id="q1-correct" value="C">
+                <label for="C">ShopCommerce</label>
+            </div>
+            <div><input type="radio" class="optionQ1" name="answer-1" value="D">
+                <label for="D">Bigcommerce</label>
+            </div>
+        </div>
+
+        <button class="next">Next →</button>
+    </div>
+
+    <div class="question-card" id="Q2">
+        <h1>CSS Quiz</h1>
+        <h2>Question 2 of 3</h2>
+        <h3>If Shopify is so good, why are Shopify developers necessary?</h3>
+
+        <div class="options">
+            <div>
+                <input type="radio" class="optionQ2" name="answer-2<% include  %> " value="A">
+                <label for="A">To save time on things like store setups and migrations
+                </label>
+            </div>
+            <div>
+                <input type="radio" class="optionQ2" name="answer-2" value="B">
+                <label for="B">To extend the limited design options and functionalities of themes with custom
+                    code</label>
+            </div>
+            <div><input type="radio" class="optionQ2" name="answer-2" value="C">
+                <label for="C">To provide support with a deep understanding of how the platform works and what its
+                    limitations
+                    are
+                </label>
+            </div>
+            <div>
+                <input type="radio" class="optionQ2" name="answer-2" id="q2-correct" value="D">
+                <label for="D">All the above</label>
+            </div>
+        </div>
+
+        <button class="back"> ← Back</button>
+        <button class="next">Next →</button>
+    </div>
+
+    <div class="question-card" id="Q3">
+        <h1>CSS Quiz</h1>
+        <h2>Question 3 of 3</h2>
+        <h3>Which of the following is true about Shopify developers?
+        </h3>
+        <div class="options">
+            <div><input type="radio" class="optionQ3" name="answer-3" value="A">
+                <label for="A">They are paid extremely well
+                </label>
+            </div>
+            <div>
+                <input type="radio" class="optionQ3 " name="answer-3" value="B">
+                <label for="B">There is a high demand for them
+                </label>
+            </div>
+            <div>
+                <input type="radio" class="optionQ3" name="answer-3" value="C">
+                <label for="C">They need to know web development, the platform itself, and the liquid template
+                    language</label>
+            </div>
+            <div>
+                <input type="radio" class="optionQ3" name="answer-3" value="D" id="q3-correct">
+                <label for="D">All the above</label>
+            </div>
+
+        </div>
+        <button class="back">← Back</button>
+        <button class="btn-result btn-other">Results</button>
+    </div>
+
+    <div class="results">
+        <h1>Results</h1>
+        <p id="result-1"></p>
+        <p id="result-2"></p>
+        <p id="result-3"></p>
+
+        <button class="btn-other" onclick="window.location.href='index.html'">try again</button>
+
+    </div>
+
+
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,39 @@
+
+.question-card{
+    display: none;
+    
+}
+.results{
+    display: none;
+}
+.active-card{
+    display:block;
+}
+.options{
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+.options div{
+    padding: 10px;   
+}
+button{
+    padding: 10px 20px;
+    border:none;
+    color: white;
+    font-size: 1em;
+}
+.next{ 
+    background-color: #3cab00;   
+}
+.back{
+    background-color: red;
+   
+}
+.btn-other {
+    background-color: blue;
+}
+
+
